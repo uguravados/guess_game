@@ -1,0 +1,89 @@
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+}
+.par h3{
+    display: flex;
+    border: #009ed4 solid;
+    border-style:dashed;
+    padding: 33px;
+    margin-bottom: 5px;
+    margin-top: 55px;
+border-radius: 20px;
+line-height: 30px;
+color:#E84E55;
+box-shadow: #a0d8eb 5px 7px;
+}
+
+.container {
+  background-image: url(./sayiTahminOyunu.png);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center center;
+  align-items: center;
+  /* margin: 200px auto; */
+  padding: 135px;
+}
+
+.p {
+  color: red;
+  font-size: 25px;
+  margin: 19px;
+  font-weight: 600;
+}
+
+.button,
+.input {
+  text-align: center;
+  padding: 22px;
+  font-size: 18px;
+  font-weight: 900;
+  border-radius: 20px;
+  border: none;
+  color: #009ed4;
+  border: 2px solid #009ed4;
+  box-shadow: #a0d8eb 5px 7px;
+  
+}
+
+.button {
+  background-color: #009ed4;
+  color: white;
+  box-shadow: #a0d8eb 5px 7px;
+  margin-left: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.alt {
+  font-size: 20px;
+  margin-top: 40px;
+  padding: 10px;
+  line-height: 50px;
+  font-weight: 900;
+  color:#009ed4
+}
+
+
+.p2,.p3,.p4{
+
+color: #a3e917;
+font-size: 25px;
+padding: 10px;
+font-weight: 900;
+}
+
+.p4{
+
+    color: #faa912;
+    text-decoration:solid;
+}
+
+img {
+  width: 110px;
+}
